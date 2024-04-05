@@ -64,4 +64,4 @@ impl_1/
 *.recovery
 *pro.lck
 *.kicad_pcb
-
+*.lck
