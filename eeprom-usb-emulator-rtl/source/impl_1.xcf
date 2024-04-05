@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE		ispXCF	SYSTEM	"IspXCF.dtd" >
+<ispXCF version="R2023.1">
+	<Comment></Comment>
+	<Chain>
+		<Comm>SPI</Comm>
+		<Device>
+			<SelectedProg value="TRUE"/>
+			<Pos>1</Pos>
+			<Vendor>Macronix</Vendor>
+			<Family>SPI Serial Flash</Family>
+			<Name>MX25L3206E</Name>
+			<Package>16-pin SOP</Package>
+			<Bypass>
+				<InstrLen>0</InstrLen>
+				<InstrVal></InstrVal>
+				<BScanLen>1</BScanLen>
+				<BScanVal>0</BScanVal>
+			</Bypass>
+			<File>../../impl_1/eeprom_usb_emulator_impl_1.bin</File>
+			<FileTime>03/05/24 21:22:26</FileTime>
+			<JedecChecksum>0xB041</JedecChecksum>
+			<MemoryType>External SPI Flash Memory (SPI FLASH)</MemoryType>
+			<Operation>Erase,Program,Verify</Operation>
+			<Option>
+				<SVFVendor>JTAG STANDARD</SVFVendor>
+				<AccessMode>Direct Programming</AccessMode>
+			</Option>
+			<FPGALoader>
+			<CPLDDevice>
+				<Device>
+					<Pos>1</Pos>
+					<Vendor>Macronix</Vendor>
+					<Family>SPI Serial Flash</Family>
+					<Name>MX25L3206E</Name>
+					<IDCode>0x00000016</IDCode>
+					<Package>16-pin SOP</Package>
+					<PON>MX25L3206EM</PON>
+					<Bypass>
+						<InstrLen>0</InstrLen>
+						<InstrVal></InstrVal>
+						<BScanLen>1</BScanLen>
+						<BScanVal>0</BScanVal>
+					</Bypass>
+					<Operation>Bypass</Operation>
+					<Option>
+						<SVFVendor>JTAG STANDARD</SVFVendor>
+						<IOState>HighZ</IOState>
+						<IOVectorData>рж</IOVectorData>
+						<AccessMode>Direct Programming</AccessMode>
+					</Option>
+				</Device>
+			</CPLDDevice>
+			<FlashDevice>
+				<Device>
+					<Pos>1</Pos>
+					<Vendor>Macronix</Vendor>
+					<Family>SPI Serial Flash</Family>
+					<Name>MX25L3206E</Name>
+					<IDCode>0x16</IDCode>
+					<Package>16-pin SOP</Package>
+					<Operation>Erase,Program,Verify</Operation>
+					<File>../../impl_1/eeprom_usb_emulator_impl_1.bin</File>
+					<AddressBase>0x00000000</AddressBase>
+					<EndAddress>0x00010000</EndAddress>
+					<DeviceSize>32</DeviceSize>
+					<DataSize>104156</DataSize>
+					<NumberOfDevices>1</NumberOfDevices>
+					<ReInitialize value="FALSE"/>
+				</Device>
+			</FlashDevice>
+			<FPGADevice>
+				<Device>
+					<Pos>1</Pos>
+					<Name></Name>
+					<File>/mnt/Data/Git/GitHub_DevBoardTech/eprom-usb-emulator/eeprom-usb-emulator-rtl/impl_1/eeprom_usb_emulator_impl_1.bin</File>
+					<LocalChainList>
+						<LocalDevice index="-99"
+							name="Unknown"
+							file="/mnt/Data/Git/GitHub_DevBoardTech/eprom-usb-emulator/eeprom-usb-emulator-rtl/impl_1/eeprom_usb_emulator_impl_1.bin"/>
+					</LocalChainList>
+					<Option>
+						<SVFVendor>JTAG STANDARD</SVFVendor>
+					</Option>
+				</Device>
+			</FPGADevice>
+			</FPGALoader>
+		</Device>
+	</Chain>
+	<ProjectOptions>
+		<Program>SEQUENTIAL</Program>
+		<Process>ENTIRED CHAIN</Process>
+		<OperationOverride>No Override</OperationOverride>
+		<StartTAP>TLR</StartTAP>
+		<EndTAP>TLR</EndTAP>
+		<VerifyUsercode value="FALSE"/>
+		<TCKDelay>1</TCKDelay>
+	</ProjectOptions>
+	<CableOptions>
+		<CableName>USB2</CableName>
+		<PortAdd>FTUSB-0</PortAdd>
+		<USBID>LATTICE ICE40UP5K BREAKOUT A Location 0000 Serial LATTICE ICE40UP5K BREAKOUT A</USBID>
+	</CableOptions>
+</ispXCF>

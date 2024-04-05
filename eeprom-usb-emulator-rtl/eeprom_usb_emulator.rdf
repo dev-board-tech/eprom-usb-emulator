@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.2" radiant="2023.1.1.200.1" title="eeprom_usb_emulator" device="iCE40UP5K-SG48I" performance_grade="High-Performance_1.2V" default_implementation="impl_1">
+    <Options/>
+    <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="lse" default_strategy="Strategy1">
+        <Options def_top="top"/>
+        <Source name="source/impl_1/top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="top"/>
+        </Source>
+        <Source name="../../hdl-core-mega-xmega/io-s-h.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../hdl-core-mega-xmega/mega-alu.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../hdl-core-mega-xmega/mega-core.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../hdl-core-mega-xmega/mega-def.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../hdl-core-mega-xmega/mega-ram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../hdl-core-mega-xmega/mega-reg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../hdl-core-mega-xmega/mega-rom.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../hdl-core-common/io-atmega/atmega-pio.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../hdl-core-common/io-atmega/atmega-rtc.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../hdl-core-common/io-atmega/atmega-uart.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../hdl-core-common/util/io-dmux.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/io-glue.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="PLL_DEV/PLL_DEV.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="eeprom-usb-emulator-fw.mem" type="Unknown Type" type_short="Unknown">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/impl_1.ldc" type="LSE Design Constraints File" type_short="LDC">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1/impl_1.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="arduFPGA_simple_template1.sty"/>
+</RadiantProject>

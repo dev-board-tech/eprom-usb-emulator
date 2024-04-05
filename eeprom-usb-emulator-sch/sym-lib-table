@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "eprom-usb-emulator-sch-rescue")(type "KiCad")(uri "${KIPRJMOD}/eprom-usb-emulator-sch-rescue.kicad_sym")(options "")(descr ""))
+)
