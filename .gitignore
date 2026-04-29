@@ -63,5 +63,5 @@ impl_1/
 *.dir/
 *.recovery
 *pro.lck
-*.kicad_pcb
 *.lck
+*/build/*
